@@ -19,7 +19,9 @@ anchors_path = os.path.join(model_data_dir, 'yolo_anchors.txt')
 classes_path = os.path.join(model_data_dir, 'coco_classes.txt')
 font_path = os.path.join(repo_path, 'font/FiraMono-Medium.otf')
 font_size = 14
-image_url = "http://marinabeachclub.com/wp-content/uploads/2018/04/pool_new_vert-1310x1965.jpg"
+
+# Image src
+image_url = "https://i.imgur.com/CJb6LgM.jpg"
 response = requests.get(image_url)
 image = BytesIO(response.content)
 
